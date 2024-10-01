@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string>
+using namespace std;
+string reversestring(const string &str)
+{
+	return string(str.rbegin(),str.rend());
+}
+int main()
+{
+	string input="madam";
+	cout<<reversestring(input)<<endl;
+	cout<<(reversestring(input)==input?"pali":"not pali");
+	return 0;
+}
