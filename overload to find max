@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int max(int a, int b)
+{
+	return (a>b)?a:b;
+}
+float maxi(float a, float b)
+{
+	return (a>b)?a:b;
+}
+char maxii(char a, char b)
+{
+	return (a>b)?a:b;
+}
+int main()
+{
+	int a=2,b=3;
+	cout<<"max of"<<a<<"and"<<b<<"is"<<max(a,b)<<endl;
+	float c=3.4,d=4.5;
+	cout<<"max of"<<c<<"and"<<d<<"is"<<maxi(c,d)<<endl;
+	char e='g',f='z';
+	cout<<"max of"<<e<<"and"<<f<<"is"<<maxii(e,f);
+	return 0;
+}
